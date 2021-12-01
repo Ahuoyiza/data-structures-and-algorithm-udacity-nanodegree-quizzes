@@ -4,11 +4,11 @@
 # You buy 17 packages of tiles containing 6 tiles each. How many tiles will be left over?
 
 # Fill this in with an expression that calculates how many tiles are needed.
-tilesNeeded =(9*7) + (5*7)
-print(tilesNeeded)
+tiles_needed =(9*7) + (5*7)
+print(tiles_needed)
 
 # Fill this in with an expression that calculates how many tiles will be left over.
-tilesPackBought = 17 * 6
-packsUsed = tilesPackBought - tilesNeeded
-print(packsUsed)
+tiles_pack_bought = 17 * 6
+packs_used = tiles_pack_bought - tiles_needed
+print(packs_used)
 
